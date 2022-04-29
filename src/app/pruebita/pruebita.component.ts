@@ -36,12 +36,6 @@ export class PruebitaComponent implements OnInit {
       "rol": "Apoyo moral",
       "area": "RRHH",
       "estado": "True"
-    },
-    {
-      "nombre": "Molly Chicken",
-      "rol": "Apoyo moral",
-      "area": "RRHH",
-      "estado": "True"
     }
 ];
 
