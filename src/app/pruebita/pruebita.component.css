@@ -1,0 +1,12 @@
+header{
+  height: 90px;
+  background: #08C44B;
+  width: 100%;
+}
+footer{
+  height: 90px;
+  background: #08C44B;
+  width: 100%;
+  position: relative;
+  top: 625px;
+}

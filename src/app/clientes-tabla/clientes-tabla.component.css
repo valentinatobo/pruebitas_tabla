@@ -1,0 +1,146 @@
+.table-container{
+  border: 1px solid #00000029;
+  border-radius: 20px;
+  background: transparent 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #00000029;
+  opacity: 1;
+  padding: 0 20px 20px 15px;
+  width: 85%;
+  height:  calc(100% - 260px);
+  position: absolute;
+  left: 200px;
+  top: 120px;
+
+}
+
+
+
+.pagination{
+  text-align: center;
+}
+
+.buttom{
+  margin-top: 10px;
+  width: 164px;
+  height: 40px;
+  border-radius: 50px;
+  position: relative;
+  left: 89%;
+}
+
+.edit{
+  background: #6AD448;
+  width: 36px;
+  height: 36px;
+  border: 3px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 4px;
+}
+
+.edit:hover{
+  cursor: pointer;
+  background: rgb(80, 158, 54);
+}
+
+.anchor{
+  background-color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-top: 8px;
+  border: 0px;
+  border-radius: 50%;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  width: 100%;
+}
+
+thead{
+  line-height: 20px;
+  padding-left: 10px;
+  letter-spacing: 0px;
+  color: #69797E;
+  }
+
+.information-row{
+  background: transparent 0% 0% no-repeat padding-box;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  opacity: 1;
+  /*box-shadow: 0px 10px 20px #00000029;*/
+  line-height: 8px;
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #69797E;
+}
+
+.starting-cell{
+  border-top: 1px solid #A2ACAF;
+  border-left: 1px solid #A2ACAF;
+  border-bottom: 1px solid #A2ACAF;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.end-cell{
+  border-top: 1px solid #A2ACAF;
+  border-right: 1px solid #A2ACAF;
+  border-bottom: 1px solid #A2ACAF;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.middle-cell{
+  border-top: 1px solid #A2ACAF;
+  border-bottom: 1px solid #A2ACAF;
+}
+
+td{
+  width: 12%;
+  padding-left: 10px;
+}
+
+.big{
+  width: 25%;
+}
+
+.medium{
+  width: 18%;
+}
+
+.small{
+  width: 10%;
+}
+
+th{
+  text-align: left;
+  padding-left: 10px;
+}
+
+.green{
+  color: #08C44B;
+  opacity: 1;
+}
+
+.red{
+  color: #CD0000;
+  opacity: 1;
+}
+
+.orange{
+  color: #F99C00;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
