@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './pruebita.component.html',
   styleUrls: ['./pruebita.component.css']
 })
+
 export class PruebitaComponent implements OnInit {
 
   //tittles: string[]=['Nombre','cedula', 'Rol', 'Area', 'Estado',''];
@@ -28,9 +29,21 @@ export class PruebitaComponent implements OnInit {
 		"rol": "Apoyo moral",
 		"area": "RRHH",
 		"estado": "True"
-	}
+	},
+    {
+      "nombre": "Molly Chicken",
+      "cedula": 1111111,
+      "rol": "Apoyo moral",
+      "area": "RRHH",
+      "estado": "True"
+    },
+    {
+      "nombre": "Molly Chicken",
+      "rol": "Apoyo moral",
+      "area": "RRHH",
+      "estado": "True"
+    }
 ];
-
 
   constructor() { }
 
