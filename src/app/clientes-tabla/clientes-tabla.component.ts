@@ -24,6 +24,13 @@ export class ClientesTablaComponent implements OnInit {
     }
   }
 
+  classValidation(i:number, column:any){
+    let _class = ''
+    _class += i === 0 ? 'starting-cell ': 'middle-cell '
+    _class += column.length > 20 ? 'big ': column.length<6?' small':' medium'
+    return _class
+  }
+
   edtionPersonData(name: String){
     console.log(`se editara ${name}` )
   }
